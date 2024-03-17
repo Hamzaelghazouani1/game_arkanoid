@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Arkanoid</title>
+</head>
+<body>
+    <div class="container">
+        <header class="params">
+            <div class="score">Score: <span id="score">0</span></div>
+            <div class="lives">Lives: <span id="lives">0</span></div>
+        </header>
+        <main id="stage">
+            <div id="ball"></div>
+            <div id="paddle"></div>
+        </main>
+        <footer class="params">
+            <div class="setting">
+                <button class="button" id="start"><i class="ri-play-large-line  "></i> <span>Start</span></button>
+                <button class="button" id="pause"><i class="ri-pause-line"></i><span>Pause</span></button>
+                <button class="button" id="reset"><i class="ri-loop-right-line"></i><span>Reset</span></button>
+            </div>
+            <div class="copyright">© hamza el ghazouani - 2024</div>
+        </footer>
+    </div>
+</body>
+</html>
