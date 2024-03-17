@@ -12,16 +12,17 @@
 <body>
     <div class="container">
         <header class="params">
-            <div class="score">Score: <span id="score">0</span></div>
-            <div class="lives">Lives: <span id="lives">0</span></div>
+            <div class="score">Score: <span id="score">10</span></div>
+            <div class="level">Live: <span id="level">1</span></div>
         </header>
         <main id="stage">
+            <div id="gameOver"><i class="ri-emotion-sad-line"></i> <span>Game Over</span></div>
             <div id="ball"></div>
             <div id="paddle"></div>
         </main>
         <footer class="params">
             <div class="setting">
-                <button class="button" id="start"><i class="ri-play-large-line  "></i> <span>Start</span></button>
+                <button class="button" id="start"><i class="ri-play-large-line"></i> <span>Start</span></button>
                 <button class="button" id="pause"><i class="ri-pause-line"></i><span>Pause</span></button>
                 <button class="button" id="reset"><i class="ri-loop-right-line"></i><span>Reset</span></button>
             </div>
